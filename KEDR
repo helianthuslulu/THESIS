@@ -17,3 +17,5 @@ Kedr - A Framework for Dynamic Analysis of Linux Kernel Modules
     Autotest KEDR and Chromium OS - how to build KEDR for Chromium OS How to build KEDR for another kernel on the same 
     machine or for another machine with the same architecture Tips and Tricks Comparison with similar systems: KEDR 
     (LeakCheck) and Kmemleak KEDR (Fault Simulation) and Fault Injection framework 
+    
+    （the above information about KEDR comes from:http://www.findbestopensource.com/product/kedr）
