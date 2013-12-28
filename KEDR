@@ -1,0 +1,19 @@
+Kedr - A Framework for Dynamic Analysis of Linux Kernel Modules
+
+    KEDR is a framework for dynamic (runtime and post factum) analysis of Linux kernel modules, including device drivers, 
+    file system modules, etc. The components of KEDR operate on a kernel module chosen by the user. They can intercept the 
+    function calls made by the module and, based on that, detect memory leaks, simulate resource shortage in the system as
+    well as other uncommon situations, save the information about the function calls to a kind of "trace" for future 
+    analysis by the user-space tools. For the present, KEDR is provided for 32- and 64-bit x86 systems. KEDR can be used 
+    in the development of kernel modules (as a component of QA system) as well as when analyzing the kernel failures on a 
+    user's system (technical support). Certification systems and other automated verification systems for kernel-mode 
+    software can also benefit from it. If you are looking for a step-by-step tutorial that allows to quickly learn how to 
+    use KEDR to monitor function calls, simulate memory allocation failures and detect memory leaks, then here it is. If 
+    you have questions, suggestions, proposals, etc., concerning KEDR framework, feel free to join "kedr-discuss" Google 
+    Group and write us a message. Note that only the members of that group may post messages there. Detailed description 
+    of the framework is available in the Reference Manual. The slides from the presentation about KEDR could be helpful 
+    too. The following information may also be useful: Problems Found - some of the problems in kernel modules revealed by 
+    KEDR tools Known issues in the framework HowTos: Using KEDR with Autotest - how to use KEDR in conjunction with 
+    Autotest KEDR and Chromium OS - how to build KEDR for Chromium OS How to build KEDR for another kernel on the same 
+    machine or for another machine with the same architecture Tips and Tricks Comparison with similar systems: KEDR 
+    (LeakCheck) and Kmemleak KEDR (Fault Simulation) and Fault Injection framework 
